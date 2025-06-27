@@ -13,7 +13,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b> (22H2)
 
 <h2>List of Prerequisites</h2>
 
@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://imgur.com/giqBLsG" height="80%" width="80%" alt="Prerequisite files install"/>
+<img src="https://imgur.com/giqBLsG" alt="Prerequisite files install"/>
 </p>
 <p>
 Install prereq_files.zip raw files from GitHub on to your desktop for easy access.
