@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://imgur.com/giqBLsG" alt="Prerequisite files install"/>
+<img src="https://imgur.com/giqBLsG.png" alt="Prerequisite files install"/>
 </p>
 <p>
 Install prereq_files.zip raw files from GitHub on to your desktop for easy access.
@@ -34,7 +34,7 @@ Install prereq_files.zip raw files from GitHub on to your desktop for easy acces
 <br />
 
 <p>
-<img src="https://imgur.com/Le1nC05" height="80%" width="80%" alt="Unzip prerequisite files"/>
+<img src="https://imgur.com/Le1nC05.png" height="80%" width="80%" alt="Unzip prerequisite files"/>
 </p>
 <p>
 Unzip prereq_files.zip to desktop.
@@ -42,7 +42,7 @@ Unzip prereq_files.zip to desktop.
 <br />
 
 <p>
-<img src="https://imgur.com/MC1vaip" height="80%" width="80%" alt="Enable IIS with CGI"/>
+<img src="https://imgur.com/MC1vaip.png" height="80%" width="80%" alt="Enable IIS with CGI"/>
 </p>
 <p>
 Open start menu and navigate to Control Panel. From control panel click "uninstall a program" and open "Turn Windows features on or off" scroll till you find Internet Information Services. Tick the box and then enable CGI. Internet Information Services -> World Wide Web Services -> Application Development Features -> CGI. Once both are enabled press OK.
@@ -50,7 +50,7 @@ Open start menu and navigate to Control Panel. From control panel click "uninsta
 <br />
 
 <p>
-<img src="https://imgur.com/ShxcZ4t" height="80%" width="80%" alt="PHP Manager"/>
+<img src="https://imgur.com/ShxcZ4t.png" height="80%" width="80%" alt="PHP Manager"/>
 </p>
 <p>
 Double click and install "PHPManagerForIIS_V1.5.0.msi" from prereq_files folder on desktop. Agree to any dialog and click next until install finishes.
@@ -58,7 +58,7 @@ Double click and install "PHPManagerForIIS_V1.5.0.msi" from prereq_files folder 
 <br />
 
 <p>
-<img src="https://imgur.com/lmKLvtU" height="80%" width="80%" alt="IIS URL Rewwrite"/>
+<img src="https://imgur.com/lmKLvtU.png" height="80%" width="80%" alt="IIS URL Rewwrite"/>
 </p>
 <p>
 Install "rewrite_amd64_en-US.msi" in the same way as PHP Manager in previous step.
@@ -66,7 +66,7 @@ Install "rewrite_amd64_en-US.msi" in the same way as PHP Manager in previous ste
 <br />
 
 <p>
-<img src="https://imgur.com/Fz9XFpD" height="80%" width="80%" alt="Create PHP"/>
+<img src="https://imgur.com/Fz9XFpD.png" height="80%" width="80%" alt="Create PHP"/>
 </p>
 <p>
 Navigate to your C:\ directory using file explorer and create a new folder named "PHP".
@@ -74,7 +74,7 @@ Navigate to your C:\ directory using file explorer and create a new folder named
 <br />
 
 <p>
-<img src="https://imgur.com/MBpjgEY" height="80%" width="80%" alt="PHP extract"/>
+<img src="https://imgur.com/MBpjgEY.png" height="80%" width="80%" alt="PHP extract"/>
 </p>
 <p>
 In prereq_files folder right click "php-7.3.8-nts-Win32-VC15-x86.zip" and choose extract all. Use the browse button to navigate to the PHP folder on the C:\ directory and click choose folder. Files should be contained directly in the PHP folder, if a folder is created within PHP with the files inside that one, you will need to move them to PHP.
@@ -82,7 +82,7 @@ In prereq_files folder right click "php-7.3.8-nts-Win32-VC15-x86.zip" and choose
 <br />
 
 <p>
-<img src="https://imgur.com/JzZkwSh" height="80%" width="80%" alt="VC redist install"/>
+<img src="https://imgur.com/JzZkwSh.png" height="80%" width="80%" alt="VC redist install"/>
 </p>
 <p>
 Next from prereq_files install "VC_redist.x86.exe". Agree to the terms and press install once launched.
@@ -90,7 +90,7 @@ Next from prereq_files install "VC_redist.x86.exe". Agree to the terms and press
 <br />
 
 <p>
-<img src="https://imgur.com/CgacgQ3" height="80%" width="80%" alt="MySQL install"/>
+<img src="https://imgur.com/CgacgQ3.png" height="80%" width="80%" alt="MySQL install"/>
 </p>
 <p>
 Install "mysql-5.5.62-win32.msi" and leave box ticked to launch MySQL configuration wizard.
@@ -98,7 +98,7 @@ Install "mysql-5.5.62-win32.msi" and leave box ticked to launch MySQL configurat
 <br />
 
 <p>
-<img src="https://imgur.com/FYIw4Cr" height="80%" width="80%" alt="MySQL standard config"/>
+<img src="https://imgur.com/FYIw4Cr.png" height="80%" width="80%" alt="MySQL standard config"/>
 </p>
 <p>
 Click next until you have to choose configuration type, select Standard Configuration.
@@ -106,7 +106,7 @@ Click next until you have to choose configuration type, select Standard Configur
 <br />
 
 <p>
-<img src="https://imgur.com/sw4I7Uq" height="80%" width="80%" alt="MySQL password"/>
+<img src="https://imgur.com/sw4I7Uq.png" height="80%" width="80%" alt="MySQL password"/>
 </p>
 <p>
 For demonstration set password to "root" although another password can be chosen, be sure to write it down for later use.
@@ -114,7 +114,7 @@ For demonstration set password to "root" although another password can be chosen
 <br />
 
 <p>
-<img src="https://imgur.com/Cj9Afxj" height="80%" width="80%" alt="IIS as admin"/>
+<img src="https://imgur.com/Cj9Afxj.png" height="80%" width="80%" alt="IIS as admin"/>
 </p>
 <p>
 Using the start menu search "IIS" and launch the Internet Information Services (IIS) Manager as an administrator.
@@ -122,7 +122,7 @@ Using the start menu search "IIS" and launch the Internet Information Services (
 <br />
 
 <p>
-<img src="https://imgur.com/B1ohOtl" height="80%" width="80%" alt="PHP Manager settings"/>
+<img src="https://imgur.com/B1ohOtl.png" height="80%" width="80%" alt="PHP Manager settings"/>
 </p>
 <p>
 From the IIS home screen open PHP Manager.
@@ -131,7 +131,7 @@ From the IIS home screen open PHP Manager.
 
 </p>
 <p>
-<img src="https://imgur.com/fSlN6a3" height="80%" width="80%" alt="Register PHP"/>
+<img src="https://imgur.com/fSlN6a3.png" height="80%" width="80%" alt="Register PHP"/>
 </p>
 <p>
 From this menu open "Register new PHP version", using the ellipsis (3 dots) browse through the PHP file on your C drive and select "php-cgi.exe" and press ok to return to IIS.
@@ -139,7 +139,7 @@ From this menu open "Register new PHP version", using the ellipsis (3 dots) brow
 <br />
 
 <p>
-<img src="https://imgur.com/gZjlCqg" height="80%" width="80%" alt="Restart sever"/>
+<img src="https://imgur.com/gZjlCqg.png" height="80%" width="80%" alt="Restart sever"/>
 </p>
 <p>
 Right click the main directory (name of your computer) and stop the server, right click again and start it to refresh the new PHP settings. You can also go back to the main directory and click restart on the right side.
@@ -147,7 +147,7 @@ Right click the main directory (name of your computer) and stop the server, righ
 <br />
 
 <p>
-<img src="https://imgur.com/mxHwBHj" height="80%" width="80%" alt="Extract and copy"/>
+<img src="https://imgur.com/mxHwBHj.png" height="80%" width="80%" alt="Extract and copy"/>
 </p>
 <p>
 Returning the the installation files, unzip "osTicket-v1.15.8.zip" and copy the “upload” folder into “c:\inetpub\wwwroot”. Rename the copied "upload" folder to "osTicket" (Make sure to keep lower case and capitals exactly as shown).
@@ -155,7 +155,7 @@ Returning the the installation files, unzip "osTicket-v1.15.8.zip" and copy the 
 <br />
 
 <p>
-<img src="https://imgur.com/H0Ivo3u" height="80%" width="80%" alt="Restart server 2"/>
+<img src="https://imgur.com/H0Ivo3u.png" height="80%" width="80%" alt="Restart server 2"/>
 </p>
 <p>
 Reload IIS (Open IIS, Stop and Start the server)
@@ -163,7 +163,7 @@ Reload IIS (Open IIS, Stop and Start the server)
 <br />
 
 <p>
-<img src="https://imgur.com/zPLp0VU" height="80%" width="80%" alt="Browse HTTP"/>
+<img src="https://imgur.com/zPLp0VU.png" height="80%" width="80%" alt="Browse HTTP"/>
 </p>
 <p>
 In IIS, Go to sites -> Default Web Site -> osTicket, and click "Browse *:80" on the right side. This will show you the remaining requirements to run osTicket.
@@ -171,7 +171,7 @@ In IIS, Go to sites -> Default Web Site -> osTicket, and click "Browse *:80" on 
 <br />
 
 <p>
-<img src="https://imgur.com/dvSafWs" height="80%" width="80%" alt="PHP enable extensions"/>
+<img src="https://imgur.com/dvSafWs.png" height="80%" width="80%" alt="PHP enable extensions"/>
 </p>
 <p>
 Inside the PHP Manager for osTicket, open the "Enable or disable extension" menu.
@@ -179,7 +179,7 @@ Inside the PHP Manager for osTicket, open the "Enable or disable extension" menu
 <br />
 
 <p>
-<img src="https://imgur.com/PSynfnr" height="80%" width="80%" alt="PHP extensions"/>
+<img src="https://imgur.com/PSynfnr.png" height="80%" width="80%" alt="PHP extensions"/>
 </p>
 <p>
 Enable the 3 following extensions: "php_imap.dll", " php_intl.dll", and "php_opcache.dll".
@@ -187,7 +187,7 @@ Enable the 3 following extensions: "php_imap.dll", " php_intl.dll", and "php_opc
 <br />
 
 <p>
-<img src="https://imgur.com/vvWohPr" height="80%" width="80%" alt="Confirm extensions"/>
+<img src="https://imgur.com/vvWohPr.png" height="80%" width="80%" alt="Confirm extensions"/>
 </p>
 <p>
 Refresh the webpage for osTicket installer and the following prerequsites will have updated.
@@ -195,7 +195,7 @@ Refresh the webpage for osTicket installer and the following prerequsites will h
 <br />
 
 <p>
-<img src="https://imgur.com/mXni8Qg" height="80%" width="80%" alt="Config file"/>
+<img src="https://imgur.com/mXni8Qg.png" height="80%" width="80%" alt="Config file"/>
 </p>
 <p>
 In file explorer, navigate to "C:\inetpub\wwwroot\osTicket\include\" and rename the file "ost-sampleconfig.php" to "ost-config.php".
@@ -203,7 +203,7 @@ In file explorer, navigate to "C:\inetpub\wwwroot\osTicket\include\" and rename 
 <br />
 
 <p>
-<img src="https://imgur.com/tyEcS4q" height="80%" width="80%" alt="Config Permissions"/>
+<img src="https://imgur.com/tyEcS4q.png" height="80%" width="80%" alt="Config Permissions"/>
 </p>
 <p>
 Right click the newly renamed "ost-config.php" and select properties. Security -> Advanced, and disable inheritance. This will remove all permissions currently assigned.
@@ -211,7 +211,7 @@ Right click the newly renamed "ost-config.php" and select properties. Security -
 <br />
 
 <p>
-<img src="https://imgur.com/WD5ZQx6" height="80%" width="80%" alt="Set permissions"/>
+<img src="https://imgur.com/WD5ZQx6.png" height="80%" width="80%" alt="Set permissions"/>
 </p>
 <p>
 Still within Security -> Advanced, click "Add". This dialog will pop-up, click "Select a principal". Enter "everyone" into the "Enter the object name to select" box and click check names to verify. Press OK and make sure "Full control" is selected.
@@ -219,7 +219,7 @@ Still within Security -> Advanced, click "Add". This dialog will pop-up, click "
 <br />
 
 <p>
-<img src="https://imgur.com/GfjUWD2" height="80%" width="80%" alt="Apply permissions"/>
+<img src="https://imgur.com/GfjUWD2.png" height="80%" width="80%" alt="Apply permissions"/>
 </p>
 <p>
 Make Sure to Select "Apply" so permissions are set.
@@ -227,7 +227,7 @@ Make Sure to Select "Apply" so permissions are set.
 <br />
 
 <p>
-<img src="https://imgur.com/h9MBVmT" height="80%" width="80%" alt="HeidiSQL install"/>
+<img src="https://imgur.com/h9MBVmT.png" height="80%" width="80%" alt="HeidiSQL install"/>
 </p>
 <p>
 Returning to the prereq_files folder, install "HeidiSQL_12.3.0.6589_Setup.exe", this is to setup a database for osTicket to store its data.
@@ -235,7 +235,7 @@ Returning to the prereq_files folder, install "HeidiSQL_12.3.0.6589_Setup.exe", 
 <br />
 
 <p>
-<img src="https://imgur.com/iYg5tbC" height="80%" width="80%" alt="SQL session"/>
+<img src="https://imgur.com/iYg5tbC.png" height="80%" width="80%" alt="SQL session"/>
 </p>
 <p>
 Create a new session within HeidiSQL make the password the same as the MySQL password, in this case "root".
@@ -243,7 +243,7 @@ Create a new session within HeidiSQL make the password the same as the MySQL pas
 <br />
 
 <p>
-<img src="https://imgur.com/blz4phU" height="80%" width="80%" alt="New database"/>
+<img src="https://imgur.com/blz4phU.png" height="80%" width="80%" alt="New database"/>
 </p>
 <p>
 Within your session right click the top directory and select create new -> Database.
@@ -251,7 +251,7 @@ Within your session right click the top directory and select create new -> Datab
 <br />
 
 <p>
-<img src="https://imgur.com/a7axki6" height="80%" width="80%" alt="Database name"/>
+<img src="https://imgur.com/a7axki6.png" height="80%" width="80%" alt="Database name"/>
 </p>
 <p>
 In the pop-up dialog, set the name to "osTicket" (case sensitive) and press "OK".
@@ -259,7 +259,7 @@ In the pop-up dialog, set the name to "osTicket" (case sensitive) and press "OK"
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt=""/>
+<img src="https://imgur.com/GBprmKS.png" height="80%" width="80%" alt=""/>
 </p>
 <p>
 Return to your HTTP (Browse *:80) window for the osTicket installer and select continue. Copy information as shown or create your own information. The Admin user information will be how you login and configure osTicket so be sure to write it down. For the database make sure the "MySQL Database" is "osTicket" and the password and username are consistent with your HeidiSQL session. After all the information is filled out, press "Install Now".
@@ -267,7 +267,7 @@ Return to your HTTP (Browse *:80) window for the osTicket installer and select c
 <br />
 
 <p>
-<img src="https://imgur.com/RTkHqDB" height="80%" width="80%" alt="Verification"/>
+<img src="https://imgur.com/RTkHqDB.png" height="80%" width="80%" alt="Verification"/>
 </p>
 <p>
 To verify installation was successful, open a new window and go to "localhost/osTicket/scp/login.php". This is how to access the osTicket configuration for the next tutorial repositories.
